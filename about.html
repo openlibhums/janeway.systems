@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Janeway</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<!-- Just an image -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark transparent">
+			  <a class="navbar-brand" href="#">
+			    <img src="assets/janeway.png" width="200px" alt="">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav ml-auto">
+			      <a class="nav-item nav-link" href="/">Home</a>
+			      <a class="nav-item nav-link active" href="about.html">About</a>
+			      <a class="nav-item nav-link" href="hosting.html">Hosting</a>
+			      <a class="nav-item nav-link" href="features.html">Features</a>
+			      <a class="nav-item nav-link" href="contact.html">Contact</a>
+			    </div>
+			  </div>
+			</nav>
+			<section class="text-section">
+				<div class="row">
+					<div class="col-12">
+						<h1>About</h1>
+
+						<p class="lead">Janeway is a free, open source publishing platform developed by the Centre for Technology and Publishing at Birkbeck to support the Open Library of Humanities' goals.</p>
+
+						<h3>Technology</h3>
+						<p>Janeway is written in Python (3.5+) and uses the Django Framework (1.11 LTS). In starting this project we had a number of technical design principles for the codebase design of Janeway:
+
+						<ul>
+							<li>No code should appear to work 'by magic'. Readability is key.</li>
+							<li>Testing will be applied to security modules and whenever a post-launch bug fix is committed. We do not aim for total testing but selective regression testing.</li>
+							<li>Security bugs jump the development queue and are a priority.</li>
+							<li>We will never accept commits of, or ourselves write, paywall features into Janeway.</li>
+						</ul>
+
+						<p>These community standards are designed to make it easy for others to delve into the codebase; to ensure that we put our efforts into ensuring the security of the platform, as journals become more of a target for hackers; and also to publicly commit ourselves to the open access nature of the platform. We also decided that Janeway should be openly licensed (AGPL v3) and developed in the open, allowing anyone to comment on, make feature suggestions for, or contribute to the codebase.</p>
+
+						<h3>Open Source</h3>
+						<p>Janeway is licensed under the AGPL meaning that anyone is free to use and modify the software, so long as they make their changes similarly open (even if they modify the code in private and publicly host that instance). The software is lightweight and can run on shared hosting platforms that support WSGI, such as Reclaim Hosting.</p>
+
+
+						<br /><br />
+						<p class="small"> Some excerpts from Eve, Martin Paul, and Andy Byers. 2018. "Janeway: A Scholarly Communications Platform". Insights 31: 15. DOI: <a href="http://doi.org/10.1629/uksg.396">http://doi.org/10.1629/uksg.396</a></p>
+				</div>
+			</section>
+		</div>
+		<div style="z-index: -1000;" id="particles-js"></div>
+		<script src="js/particles.js"></script>
+	</body>
+	<footer>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'assets/particles.json', function() {
+		  console.log('callback - particles.js config loaded');
+		});
+	</script>
+
+</html>

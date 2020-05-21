@@ -21,4 +21,12 @@
 
 .main-section {
     margin-top: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-section {
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
