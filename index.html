@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Janeway</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<!-- Just an image -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark transparent">
+			  <a class="navbar-brand" href="#">
+			    <img src="assets/janeway.png" width="200px" alt="">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav ml-auto">
+			      <a class="nav-item nav-link active" href="#">News <span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link" href="#">About</a>
+			      <a class="nav-item nav-link" href="#">Hosting</a>
+			      <a class="nav-item nav-link" href="#">Features</a>
+			      <a class="nav-item nav-link" href="#">Contact</a>
+			    </div>
+			  </div>
+			</nav>
+			<section class="main-section">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/janeway-laptop.png" class="img-fluid">
+					</div>
+					<div class="col-md-6">
+						<h1>Janeway</h1>
+						<p class="lead">
+							Developed by the Centre for Technology and Publishing and the Open Library of Humanities at Birkbeck, University of London.
+						</p>
+						<p class="lead">
+							Janeway is an open source platform for submission, review, editing and production of scholarly articles before then processing them for display
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div style="z-index: -1000;" id="particles-js"></div>
+		<script src="js/particles.js"></script>
+	</body>
+	<footer>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'assets/particles.json', function() {
+		  console.log('callback - particles.js config loaded');
+		});
+	</script>
+
+</html>
