@@ -34,3 +34,12 @@
 .title-text {
     margin-bottom: 0px !important;
 }
+
+
+hr.thin {
+    height: 1px;
+    border: 0;
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+}
