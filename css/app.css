@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 #particles-js canvas {
     display: block;
@@ -51,4 +52,11 @@ hr.thin {
     height: 60px;
     line-height: 60px;
 }
-body { padding-bottom: 60px; }
+body {
+    padding-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.person-img {
+    max-height: 200px;
+}
