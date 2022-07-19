@@ -52,3 +52,9 @@ hr.thin {
     line-height: 60px;
 }
 body { padding-bottom: 60px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .particles-box {
+    display: none;
+  }
+}
