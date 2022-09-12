@@ -52,6 +52,12 @@ hr.thin {
     height: 60px;
     line-height: 60px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .particles-box {
+    display: none;
+  }
+
 body {
     padding-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
