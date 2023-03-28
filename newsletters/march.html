@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Janeway - About</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+	</head>
+	<body>
+		<!-- Just an image -->
+		<div class="container">
+            <section class="text-section">
+				<div class="row">
+					<div class="col-12">
+                        <div>Hello all! </div>
+<div>Here is an update on Janeway development. As ever, please do get in touch if you have any questions, comments or feedback!</div>
+<div></div>
+<div><strong>Version 1.5 </strong></div>
+<div>The team have been hard at work on Janeway version 1.5 over the past few months. We are nearing completion at last and will begin the process of rolling this out soon. For those who have not heard me drone on about it the main changes in version 1.5 are an update to the underlying framework we use to build Janeway, Django.</div>
+<div>For quite some time Janeway has been behind the curve when it comes to Django versions. We&rsquo;ve been running on a patched version of 1.11 and will be moving to 3.2. This is quite a big jump and will require a lot of further work even after the initial release. We can expect to see quite a few release candidates for version 1.5 of Janeway before it is finalised.</div>
+<div>Why is this important? Well, even though there have been some additional security updates for Django 1.11 past its final support date its well past time we moved onto a more secure version. We will also be tracking the long-term support (LTS) version of Django and ensure that we keep this more up to date in the future.</div>
+<div>The first and second release candidates for version 1.5 have already been tagged and on Tuesday the 28th of March Mauro deployed it to the OLH live environment for monitoring. In dur course we will being updating other sites.</div>
+<div><strong>Reporting plugin </strong></div>
+<div>As projects running on Janeway grow and mature, it so does impact on performance throughout the entire software stack. This has been particularly noticeable in the reporting plugin, where producing reports across multiple journals or spanning wide date ranges, could take upwards of multiple minutes. We have made a few refinements both on Janeway core and in the plugin itself that should yield a much-improved performance when generating reports. Additionally, article level metrics are now broken down by galley type, so it is easier to understand what metrics have been generated against what type of file. For publications that do not have a rich-text file available (HTML or XML) the metrics are also reported separately from those that do.</div>
+<div><strong>Development Process </strong></div>
+<div>Over the last couple of weeks, the development team have been working on writing up our development process. You may have noticed that our Roadmap is now on Github and includes a new card that has a description of the Janeway development cycle. In addition to these we have also drawn up a development timeline which will help you get an idea of when releases will be made. </div>
+<div data-ogsc="rgb(0, 0, 0)" data-ogsb="rgb(255, 255, 255)"><a href="https://github.com/orgs/BirkbeckCTP/projects/21" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-safelink="true" data-ogsc="" data-linkindex="0">https://github.com/orgs/BirkbeckCTP/projects/21</a></div>
+<div><strong>The Lower Decks </strong></div>
+<div>As you may know we will be holding a symposium &ldquo;The Lower Decks: A Symposium on Janeway and Open Access Publishing&rdquo; on the 7th and 8th of September of 2023. We have now around 30 attendees (a mixture of in person and online) and would encourage anyone in the Janeway community to attend! We have some exciting talks lined up from the Janeway and OLH teams as well as a keynote from Johan Rooryck.</div>
+<div><strong>Copyediting UX Research </strong></div>
+<div>As in-house Janeway developers, we are lucky that people bring us ideas. &lsquo;I always need X. Can Janeway provide that?&rsquo; &lsquo;What if we made a button that does Y?&rsquo; &lsquo;Can we make a setting for Z?&rsquo;</div>
+<div>But since we are only three people (for the moment), we find it tricky to synthesize all these ideas into a sound design vision. Sometimes one set of needs clashes with another. Or, we might get three feature requests that partially address the same thorny issue, but more conversation is needed to go the distance and arrive at bold, workable solutions.</div>
+<div>So, for the first time, we took a more methodical approach to understanding user needs. We sat down with 14 editors, copyeditors, and authors, and asked them about their process around copyediting. They told us about their roles, workflows, and preferences - and a few of their gripes! - and they shared ideas with us about a possible future design for the copyediting interface in Janeway.</div>
+<div>We analysed the interview data using affinity mapping, a rapid, collaborative method for drawing themes out of qualitative data. This produced eight major findings about user needs, which shed light on some key challenges for user interface design of publishing applications: how to support communication between users, how to map workflows onto user interfaces, how to design differently for different roles, how to improve record-keeping features, and how to provide flexibility without losing coherence.</div>
+<div>We will use the findings as the basis for our upcoming redesign of the copyediting interface, later in 2023. </div>
+                    </div>
+                </div>
+            </section>  
+        </div>
+        <div style="z-index: -1000;" id="particles-js" class="particles-box"></div>
+		<script src="js/particles.js"></script>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'assets/particles.json', function() {
+		  console.log('callback - particles.js config loaded');
+		});
+	</script>
+
+</html>
